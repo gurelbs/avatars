@@ -63,7 +63,34 @@ const contacts = [
         quoteAuthor: 'Zig Ziglars',
         lastDate: '',
         score: 0
+    },
+    {
+        id: 6,
+        name: 'Margaret J. Soto',
+        avatarImg: "https://images.unsplash.com/photo-1542534759-05f6c34a9e63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80",
+        address: '3877 Todds Lane San Antonio, TX 78205',
+        phone: '210-472-1813',
+        birthday: 'June 1, 1986',
+        email: 'MargaretJSoto@armyspy.com',
+        quote: '"Those who says it cannot be done should not interrupt the person doing it."',
+        quoteAuthor: 'Unknown',
+        lastDate: '',
+        score: 0
+    },
+    {
+        id: 7,
+        name: 'Mary D. Johnson',
+        avatarImg: "https://images.unsplash.com/photo-1571816119553-df62a2eedf56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80",
+        address: '507 Freed Drive Stockton, CA 95202',
+        phone: '209-625-0600',
+        birthday: 'March 7, 1981',
+        email: 'MaryDJohnson@armyspy.com',
+        quote: '"If you reveal your secrets to the wind, you should not blame the wind for revealing them to the trees."',
+        quoteAuthor: 'Kahlil Gibran',
+        lastDate: '',
+        score: 0
     }
+    
 
 ]
 export default contacts;

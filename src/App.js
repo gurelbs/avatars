@@ -2,6 +2,8 @@ import React from 'react'
 import Card from './Card'
 import contacts from './contects'
 
+
+
 function createCard(contact){
   return <Card 
     key={contact.id}
@@ -19,6 +21,10 @@ function createCard(contact){
 }
 export default function App() {
   return ( 
-    <div>{contacts.map(createCard)}</div>
+    <div>
+      {contacts
+      .map(createCard)
+      .sort((a,b) => b.score - a.score)}
+    </div>
   )
 }
