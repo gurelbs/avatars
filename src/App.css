@@ -92,23 +92,19 @@ img.card-img-top:hover{
 }
 
 
- @media (max-width: 575.98px) { 
-    .card-container{
-      max-width: 90%;
-    } 
-  }
+
  /* // Small devices (landscape phones, less than 768px) */
  @media (max-width: 767.98px) { 
     .card-container{
-      max-width: 70%;
+      max-width: 99%;
     } 
   }
  /* // Medium devices (tablets, less than 992px) */
  @media (max-width: 991.98px) { 
-    .card-container{
-      max-width: 80%;
-    } 
-  }
+  .card-container{
+    max-width: 95%;
+  } 
+}
   @media (min-width: 991.98px) { 
     .card-container{
       max-width: 50%;
