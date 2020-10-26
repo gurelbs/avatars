@@ -2,8 +2,9 @@ import React, {useState} from 'react'
 import './App.css';
 
 export default function Card(props) {
-  let amountOfClick;
+
   const [click, setClick] = useState(0);
+  let amountOfClick;
   function plusBtn(){
     setClick(click+1);
     amountOfClick = click+1;
@@ -38,7 +39,7 @@ export default function Card(props) {
             <i className="fas fa-mail-bulk"></i>&nbsp;
           {props.email}</p>
         </div>
-        <button onClick={plusBtn} type="button" className="btn btn-sm btn-outline-light border-0  bg-light text-dark col-2 like-btn">
+        <button onClick={plusBtn} type="button" className="btn btn-lg btn-outline-light border-0  col-2 like-btn">
            <span><i className="far fa-thumbs-up"></i> </span>
           <span className="badge">
           {click}
