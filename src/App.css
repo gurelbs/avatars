@@ -18,26 +18,24 @@ cursor: pointer;
 img.card-img-top{
   position: relative;
   border-radius: 0 0 50% 50%;
-  min-height: 50px;
-  min-width: 50px;
-  max-height: 150px;
+  min-height: 100px;
+  min-width: 100px;
   max-width: 150px;
   box-shadow: 0 5px 10px black, 0 2px 6px rgb(37, 37, 37);
-  transition: all 1s ease-in-out;
+  transition: .3s ease-in-out;
 }
 img.card-img-top:hover{
-  transition: all .5s ease-in-out;
-  transform: scale(1.05) translateY(10px) translateX(-30px);
-  max-width: 200px;
-  max-height: 200px;
-  border-radius: 50%;
-  margin-bottom: 1rem;
-  padding: 0;
+  transition: .2s ease-in-out;
+  border-radius: 50% 50% 0 0;
+  padding-left: 3rem;
 }
-.card-name,.card-text{
+.card-name{
   text-align: left;
   text-shadow: 0 5px 10px black, 0 2px 6px rgb(37, 37, 37);
   transition: all .15s ease-in-out;
+}
+.card-name{
+  font-size: 3em;
 }
 .card-name:hover{
   transform: scale(1.1) translateX(20px);
@@ -49,10 +47,8 @@ img.card-img-top:hover{
   font-size: 1rem;
   direction: ltr;
   transition: all .15s ease-in-out;
-}
-.card-text:hover{
-  transform: scale(1.05) translateX(15px);
-  transition: all .15s ease-in-out;
+  text-align: left;
+
 }
 .fa-home{
   color: hsl(20, 20%, 43%);
@@ -67,7 +63,7 @@ img.card-img-top:hover{
   color: hsl(20, 100%, 73%);
 }
 .mini-text{
-  font-size: 75%;
+  font-size: 60%;
   transition: all .15s ease-in-out;
 }
 .mini-text:hover{
@@ -81,7 +77,8 @@ img.card-img-top:hover{
   max-height: 50px;
 }
 .like-btn{
-  border-radius: 100% 0 0 0;
+  /* border-radius: 75% 0 0 0; */
+  clip-path: circle();
   box-shadow: 0 -5px 10px black, 0 -5px 20px rgb(119, 131, 161);
   transition: all .15s ease-in-out;
 }
@@ -89,6 +86,8 @@ img.card-img-top:hover{
   transition: all .15s ease-in-out;
   transform: scale(1.15) translateX(-10px) translateY(-10px);
   border-radius: 7px;
+  clip-path: none;
+  
 }
 
 
@@ -97,13 +96,19 @@ img.card-img-top:hover{
  @media (max-width: 767.98px) { 
     .card-container{
       max-width: 99%;
-    } 
+    }
+    .card-name{
+      font-size: 1.5rem;
+      } 
   }
  /* // Medium devices (tablets, less than 992px) */
  @media (max-width: 991.98px) { 
   .card-container{
     max-width: 95%;
-  } 
+  }
+  .card-name{
+    font-size: 2.5rem;
+    } 
 }
   @media (min-width: 991.98px) { 
     .card-container{
