@@ -11,13 +11,13 @@ export default function Card(props) {
         <div className="card-body p-0 col-8">
           <h5 className="card-name col-12 pt-5 h1">{props.name}</h5>
         </div>
-        <div className="card-text col-7">
+        <div className="card-text col-5">
           <blockquote className="blockquote">
             <p className="mb-0">{props.quote}</p>
             <footer className="blockquote-footer">{props.quoteAuthor}</footer>
           </blockquote>
         </div>
-        <div className="card-text  col-5">
+        <div className="card-text  col-7">
           <p className="p mb-0 mini-text address">
             <i className="fas fa-home"></i>&nbsp;
            {props.address}</p>
