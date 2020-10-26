@@ -1,4 +1,4 @@
-## `homepage:` <a href="http://gurelbs/github.io/avatars">HERE</a>
+## `homepage:` <a href="http://gurelbs.github.io/avatars">HERE</a>
 
 ## Available Scripts
 
