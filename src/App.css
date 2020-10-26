@@ -81,13 +81,18 @@ img.card-img-top:hover{
   clip-path: circle();
   box-shadow: 0 -5px 10px black, 0 -5px 20px rgb(119, 131, 161);
   transition: all .15s ease-in-out;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+
 }
 .like-btn:hover{
   transition: all .15s ease-in-out;
   transform: scale(1.15) translateX(-10px) translateY(-10px);
   border-radius: 7px;
   clip-path: none;
-  
+  margin-right: 1rem;
+
 }
 
 

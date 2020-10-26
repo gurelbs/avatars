@@ -18,13 +18,13 @@ export default function Card(props) {
         <div className="card-body p-0 col-8">
           <h5 className="card-name col-12 pt-5">{props.name}</h5>
         </div>
-        <div className="card-text col-8 col-xs-9">
+        <div className="card-text col-7">
           <blockquote className="blockquote">
             <p className="mb-0">{props.quote}</p>
             <footer className="blockquote-footer">{props.quoteAuthor}</footer>
           </blockquote>
         </div>
-        <div className="card-text col-4 col-xs-3">
+        <div className="card-text col-5">
           <p className="p mb-0 mini-text address border-bottom py-1">
             <i className="fas fa-home"></i>&nbsp;
            {props.address}</p>
@@ -38,13 +38,13 @@ export default function Card(props) {
             <i className="fas fa-mail-bulk"></i>&nbsp;
           {props.email}</p>
         </div>
-        <button onClick={plusBtn} type="button" className="btn btn-outline-light border-0  bg-light text-dark col-2 p-2 mb-1 ml-3 like-btn">
+        <button onClick={plusBtn} type="button" className="btn btn-sm btn-outline-light border-0  bg-light text-dark col-2 like-btn">
            <span><i className="far fa-thumbs-up"></i> </span>
           <span className="badge">
           {click}
           </span>
         </button>
-        <p className="badge my-auto text-muted col-10 pb-0 mb-0">Last Update: <span className="font-weight-light">{new Date().toLocaleString()}</span></p>     
+        <p className="badge my-auto text-muted col-9 pb-0 mb-0">Last Update: <span className="font-weight-light">{new Date().toLocaleString()}</span></p>     
       </div>       
     </div>  
   )
