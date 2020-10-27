@@ -2,7 +2,7 @@ const contacts = [
     {
         id: 1,
         name: 'Roberta M. Becerra',
-        avatarImg: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80",
+        avatarImg: "https://images.pexels.com/photos/3029023/pexels-photo-3029023.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
         address: '1685 Eastland Avenue Jackson, MS 39201',
         phone: '814-725-1627',
         birthday: 'May 6, 1989',
@@ -10,7 +10,8 @@ const contacts = [
         quote: '"You can see a lot by just looking."',
         quoteAuthor: 'Yogi Berra',
         lastDate: '',
-        score: 0
+        score: 0,
+        time: new Date().toLocaleString()
     },
     {
         id: 2,
@@ -23,7 +24,9 @@ const contacts = [
         quote: '"The harder I work, the luckier I get."',
         quoteAuthor: 'Gary Player',
         lastDate: '',
-        score: 0
+        score: 0,
+        time: new Date().toLocaleString()
+
     },
     {
         id: 3,
@@ -36,7 +39,8 @@ const contacts = [
         quote: '"Discovering the unexpected is more important than confirming the known."',
         quoteAuthor: 'George Box',
         lastDate: '',
-        score: 0
+        score: 0,
+        time: new Date().toLocaleString()
     },
     {
         id: 4,
@@ -49,7 +53,8 @@ const contacts = [
         quote: '"With the new day comes new strength and new thoughts."',
         quoteAuthor: 'Eleanor Roosevelt',
         lastDate: '',
-        score: 0
+        score: 0,
+        time: new Date().toLocaleString()
     },
     {
         id: 5,
@@ -62,7 +67,8 @@ const contacts = [
         quote: '"There is no elevator to success, you have to take the stairs."',
         quoteAuthor: 'Zig Ziglars',
         lastDate: '',
-        score: 0
+        score: 0,
+        time: new Date().toLocaleString()
     },
     {
         id: 6,
@@ -75,7 +81,8 @@ const contacts = [
         quote: '"Those who says it cannot be done should not interrupt the person doing it."',
         quoteAuthor: 'Unknown',
         lastDate: '',
-        score: 0
+        score: 0,
+        time: new Date().toLocaleString()
     },
     {
         id: 7,
@@ -88,7 +95,8 @@ const contacts = [
         quote: '"If you reveal your secrets to the wind, you should not blame the wind for revealing them to the trees."',
         quoteAuthor: 'Kahlil Gibran',
         lastDate: '',
-        score: 0
+        score: 0,
+        time: new Date().toLocaleString()
     }
     
 

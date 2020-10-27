@@ -1,27 +1,40 @@
-*{padding: 0;margin: 0;box-sizing: border-box;}
+*{padding: 0;margin: 0;box-sizing: border-box;;
+}
 body{
   background: rgb(68, 68, 68);
+  transition: all .05s ease-in-out;
 }
 .card-container{
   margin: 2rem auto;
 }
+.like-btn{
+  animation: anima .5s ease-in-out;
+}
+@keyframes anima{
+  from {
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
 .card{
-  background: #000;
   box-shadow: 0 5px 10px black, 0 2px 20px black;
   transition: all .3s ease-in-out;
+  direction: rtl;
+  transform: scale(0.99);
+
 }
 .card:hover{
 transform: scale(1.05);
-transition: all .3s ease-in-out;
+transition: all .22s ease-in-out;
 cursor: pointer;
 }
 img.card-img-top{
-  position: relative;
+  position: fixed;
   border-radius: 0 0 50% 50%;
-  min-height: 80px;
-  min-width: 80px;
-  max-width: 120px;
-  max-height: 120px;
+  width: 120px;
+  height: 120px;
   z-index: 1;
   box-shadow: 0 2px 4px black, 0 2px 8px rgb(37, 37, 37);
   transition: .15s ease-in-out;
@@ -29,47 +42,42 @@ img.card-img-top{
 }
 img.card-img-top:active{
   position: absolute;
-  transition: .05s ease-in-out;
-  border-radius: 0 0 5%;
-  z-index: 1;
-  max-width: 200px;
-  max-height: 200px;
-  transform: scaleY(200px) scaleX(200px);
-  
+  transition: .15s ease-in-out;
+  border-radius: 0 0 5px;
+
 }
 .card-name{
+  font-size: 2.4em;
   text-align: left;
   text-shadow: 0 5px 10px black, 0 2px 6px rgb(37, 37, 37);
   transition:  .15s ease-in-out;
   font-family: 'Aref Ruqaa', serif;
-}
-.card-name{
-  font-size: 2.4em;
-  
+  padding-top: 2rem;
 }
 .card-name:hover{
   transition:  .15s ease-in-out;
-  /* background-image: linear-gradient(
-    to right,
-    rgb(173, 36, 128),
-    rgb(49, 171, 187),
-    rgb(255, 255, 255),
-    rgb(56, 30, 126)
-  );
-  background-clip: text;
-  -webkit-text-fill-color: transparent; */
   text-shadow: 0 10px 10px black, 0 2px 20px rgb(0, 0, 0);
 }
-.card-text{
+
+.card-text,.text-quote{
   position: relative;
   font-weight: 500;
-  font-size: 1rem;
   direction: ltr;
   transition: all .15s ease-in-out;
   text-align: left;
   z-index: 2;
   text-shadow: 0 5px 10px black, 0 2px 10px rgb(0, 0, 0);
-
+  color: rgb(231, 222, 222);
+}
+.blockquote{
+  font-size: 1rem;
+  margin-top: 1.5rem;
+  box-shadow: 0 1px 2px black, 0 2px 30px rgb(0, 0, 0);
+  border-radius: 8px;
+  padding: .5rem;
+}
+.blockquote:hover{
+  box-shadow: 0 1px 2px black, 0 2px 30px rgb(255, 255, 255);
 }
 .fa-home{
   color: hsl(20, 20%, 43%);
@@ -102,8 +110,8 @@ img.card-img-top:active{
   clip-path: circle();
   box-shadow: 0 -5px 10px black, 0 -5px 20px rgb(119, 131, 161);
   transition: all .15s ease-in-out;
-  padding: .5rem 1rem;
-  margin: 0 1rem;
+  padding: .8rem 1rem;
+  margin: 1rem;
 }
 .like-btn:hover{
   transition: all .15s ease-in-out;
@@ -112,7 +120,9 @@ img.card-img-top:active{
   clip-path: none;
   margin-right: 1rem;
 }
-
+.color-dark{
+  margin-bottom: 2rem solid black;
+  }
 
 
  /* // Small devices (landscape phones, less than 768px) */
@@ -124,13 +134,19 @@ img.card-img-top:active{
       font-size: 1.2rem;
       } 
       .card-name:hover{
-        transform: scale(1.2) translate3d(20px, -0, 0);
         transition: all .15s ease-in-out;
       }
       .like-btn{
         clip-path: ellipse();
-        padding: .5rem 1rem;
-        margin: 0;      }
+        padding: 1rem;
+        margin: 1rem 0;      
+      }
+      .card-name{
+        z-index: 10;
+      }
+      .blockquote{
+        font-size: .8rem;
+      }
   }
  /* // Medium devices (tablets, less than 992px) */
  @media (max-width: 991.98px) { 
