@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/avatars/static/css/main.1d90df14.chunk.css",
-    "main.js": "/avatars/static/js/main.b51623dc.chunk.js",
-    "main.js.map": "/avatars/static/js/main.b51623dc.chunk.js.map",
+    "main.css": "/avatars/static/css/main.4df36dc5.chunk.css",
+    "main.js": "/avatars/static/js/main.885a61bf.chunk.js",
+    "main.js.map": "/avatars/static/js/main.885a61bf.chunk.js.map",
     "runtime-main.js": "/avatars/static/js/runtime-main.1de86689.js",
     "runtime-main.js.map": "/avatars/static/js/runtime-main.1de86689.js.map",
-    "static/js/2.a267da88.chunk.js": "/avatars/static/js/2.a267da88.chunk.js",
-    "static/js/2.a267da88.chunk.js.map": "/avatars/static/js/2.a267da88.chunk.js.map",
+    "static/js/2.49598ae8.chunk.js": "/avatars/static/js/2.49598ae8.chunk.js",
+    "static/js/2.49598ae8.chunk.js.map": "/avatars/static/js/2.49598ae8.chunk.js.map",
     "index.html": "/avatars/index.html",
-    "static/css/main.1d90df14.chunk.css.map": "/avatars/static/css/main.1d90df14.chunk.css.map",
-    "static/js/2.a267da88.chunk.js.LICENSE.txt": "/avatars/static/js/2.a267da88.chunk.js.LICENSE.txt"
+    "static/css/main.4df36dc5.chunk.css.map": "/avatars/static/css/main.4df36dc5.chunk.css.map",
+    "static/js/2.49598ae8.chunk.js.LICENSE.txt": "/avatars/static/js/2.49598ae8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1de86689.js",
-    "static/js/2.a267da88.chunk.js",
-    "static/css/main.1d90df14.chunk.css",
-    "static/js/main.b51623dc.chunk.js"
+    "static/js/2.49598ae8.chunk.js",
+    "static/css/main.4df36dc5.chunk.css",
+    "static/js/main.885a61bf.chunk.js"
   ]
 }
