@@ -1,3 +1,4 @@
+let newTime = new Date().toLocaleString();
 const contacts = [
     {
         id: 1,
@@ -11,7 +12,7 @@ const contacts = [
         quoteAuthor: 'Yogi Berra',
         lastDate: '',
         score: 0,
-        time: new Date().toLocaleString()
+        time: newTime
     },
     {
         id: 2,
@@ -25,7 +26,7 @@ const contacts = [
         quoteAuthor: 'Gary Player',
         lastDate: '',
         score: 0,
-        time: new Date().toLocaleString()
+        time: newTime
 
     },
     {
@@ -40,7 +41,7 @@ const contacts = [
         quoteAuthor: 'George Box',
         lastDate: '',
         score: 0,
-        time: new Date().toLocaleString()
+        time: newTime
     },
     {
         id: 4,
@@ -54,7 +55,7 @@ const contacts = [
         quoteAuthor: 'Eleanor Roosevelt',
         lastDate: '',
         score: 0,
-        time: new Date().toLocaleString()
+        time: newTime
     },
     {
         id: 5,
@@ -68,7 +69,7 @@ const contacts = [
         quoteAuthor: 'Zig Ziglars',
         lastDate: '',
         score: 0,
-        time: new Date().toLocaleString()
+        time: newTime
     },
     {
         id: 6,
@@ -82,7 +83,7 @@ const contacts = [
         quoteAuthor: 'Unknown',
         lastDate: '',
         score: 0,
-        time: new Date().toLocaleString()
+        time: newTime
     },
     {
         id: 7,
@@ -96,7 +97,7 @@ const contacts = [
         quoteAuthor: 'Kahlil Gibran',
         lastDate: '',
         score: 0,
-        time: new Date().toLocaleString()
+        time: newTime
     }
     
 
