@@ -1,3 +1,4 @@
+const  updateDate = new Date().toLocaleString()
 const contacts = [
     {
         id: 1,
@@ -9,7 +10,7 @@ const contacts = [
         email: 'LauraCToro@rhyta.com',
         quote: '"You can see a lot by just looking."',
         quoteAuthor: 'Yogi Berra',
-        lastDate: '',
+        lastDate: updateDate,
         score: 0,
     },
     {
@@ -22,7 +23,7 @@ const contacts = [
         email: 'WilliamDHerzig@rhyta.com',
         quote: '"The harder I work, the luckier I get."',
         quoteAuthor: 'Gary Player',
-        lastDate: '',
+        lastDate: updateDate,
         score: 0,
     },
     {
@@ -35,7 +36,7 @@ const contacts = [
         email: 'BettyTMoss@teleworm.us',
         quote: '"Discovering the unexpected is more important than confirming the known."',
         quoteAuthor: 'George Box',
-        lastDate: '',
+        lastDate: updateDate,
         score: 0,
     },
     {
@@ -48,7 +49,7 @@ const contacts = [
         email: 'DarleenEMosqueda@dayrep.com',
         quote: '"With the new day comes new strength and new thoughts."',
         quoteAuthor: 'Eleanor Roosevelt',
-        lastDate: '',
+        lastDate: updateDate,
         score: 0,
     },
     {
@@ -61,7 +62,7 @@ const contacts = [
         email: 'LeoSWilliams@jourrapide.com',
         quote: '"There is no elevator to success, you have to take the stairs."',
         quoteAuthor: 'Zig Ziglars',
-        lastDate: '',
+        lastDate: updateDate,
         score: 0,
     },
     {
@@ -74,7 +75,7 @@ const contacts = [
         email: 'MargaretJSoto@armyspy.com',
         quote: '"Those who says it cannot be done should not interrupt the person doing it."',
         quoteAuthor: 'Unknown',
-        lastDate: '',
+        lastDate: updateDate,
         score: 0,
     },
     {
@@ -87,7 +88,7 @@ const contacts = [
         email: 'MaryDJohnson@armyspy.com',
         quote: '"If you reveal your secrets to the wind, you should not blame the wind for revealing them to the trees."',
         quoteAuthor: 'Kahlil Gibran',
-        lastDate: '',
+        lastDate: updateDate,
         score: 0,
     }
 ]

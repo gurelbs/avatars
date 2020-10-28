@@ -2,7 +2,7 @@
 }
 body{
   background: rgb(68, 68, 68);
-  transition: all .05s ease-in-out;
+  transition: all .25s ease-in-out;
 }
 .card-container{
   margin: 2rem auto;

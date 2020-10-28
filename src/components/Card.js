@@ -39,7 +39,7 @@ export default function Card(props) {
             <span><i className="far fa-thumbs-up"></i>&nbsp;&nbsp;</span>
           {props.user.score}</button>
           <p className="badge my-auto text-muted col-9 pb-0 mb-0 ltr">Last Update:&nbsp;
-          <span className="font-weight-light">{!props.user.scoreUp ? 'Not updated yet' : props.user.scoreUp}</span>
+          <span className="font-weight-light">{props.user.lastDate}</span>
           </p>     
           </div>
         </div> 
