@@ -42,8 +42,8 @@ export default function Card(props) {
           className=" badge btn btn-sm btn-outline-light border-0 mx-2 col-2 like-btn shadow-none">
             <span><i className="far fa-thumbs-up"></i>&nbsp;&nbsp;</span>
           {card.score}</button>
-          <p className="badge my-auto text-muted col-9 pb-0 mb-0">Last Update:&nbsp;
-          <span className="font-weight-light">{card.update}</span>
+          <p className="badge my-auto text-muted col-9 pb-0 mb-0 ltr">Last Update:&nbsp;
+          <span className="font-weight-light">{!card.update ? 'Not updated yet' : card.update}</span>
           </p>     
           </div>
         </div> 
